@@ -51,6 +51,8 @@ namespace sayunana
                                 if (!vrcPhysBone.colliders.Contains(vrcPhysBoneCollider))
                                 {
                                     vrcPhysBone.colliders.Add(vrcPhysBoneCollider);
+                                    Undo.RecordObject(vrcPhysBone, "Add VRCPhysBoneCollider");
+                                    EditorUtility.SetDirty(vrcPhysBone);
                                 }
                             });
                         });
@@ -68,6 +70,8 @@ namespace sayunana
                                 if (vrcPhysBone.colliders.Contains(vrcPhysBoneCollider))
                                 {
                                     vrcPhysBone.colliders.Remove(vrcPhysBoneCollider);
+                                    Undo.RecordObject(vrcPhysBone, "Remove VRCPhysBoneCollider");
+                                    EditorUtility.SetDirty(vrcPhysBone);
                                 }
                             });
                         });
