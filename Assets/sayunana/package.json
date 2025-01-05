@@ -1,0 +1,13 @@
+{
+    "name": "com.github.sayunana.PhysBoneColliderSetRemover",
+    "version": "0.1.0",
+    "displayName": "PhysBoneColliderSetRemover",
+    "description": "Add or remove Colliders for VRCPhysBone",
+    "unity": "2018.1",
+    "documentationUrl": "https://github.com/sayunana/PhysBoneColliderSetRemover/",
+    "changelogUrl": "https://github.com/sayunana/PhysBoneColliderSetRemover/blob/main/CHANGELOG.md",
+    "licensesUrl": "https://github.com/sayunana/PhysBoneColliderSetRemover?tab=MIT-1-ov-file#readme",
+    "license": "MIT",
+    "url" : "https://github.com/sayunana/PhysBoneColliderSetRemover/releases/download/0.1.0/com.github.sayunana.PhysBoneColliderSetRemover.0.1.0.zip?",
+    "repo" : "https://sayunana.github.io/vpm-repos/sayunana-vpm.json"
+}
